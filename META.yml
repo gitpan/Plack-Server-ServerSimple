@@ -21,11 +21,11 @@ no_index:
     - xt
 requires:
   Filter::Util::Call: 0
-  HTTP::Server::Simple: 0
+  HTTP::Server::Simple: 0.41
   HTTP::Status: 0
   Plack::Util: 0
   perl: 5.8.1
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/miyagawa/Plack-Server-ServerSimple.git
-version: 0.01
+version: 0.02
